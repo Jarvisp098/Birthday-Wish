@@ -1,24 +1,32 @@
 import { Profile, Movie, TimelineEvent, InsideJoke } from './types';
 
+import profileQueen from './assets/images/profile_avatar_queen_1780875124725.png';
+import profileKing from './assets/images/profile_avatar_king_1781496905421.jpg';
+import kidsAvatar from './assets/images/kids_avatar_1781497011070.jpg';
+import homePic from './assets/images/Homepic.png';
+import memoriesPic from './assets/images/memories.jpg';
+import recommendationPic from './assets/images/Recommendation.png';
+import roadmapPic from './assets/images/roadmap.jpg';
+
 export const PROFILES: Profile[] = [
   {
     id: 'queen',
     name: 'Anjali 👑',
-    avatarUrl: '/images/profile_avatar_queen_1780875124725.png',
+    avatarUrl: profileQueen,
     isGirlfriend: true,
     tagline: 'Officially entering Season 22! Always matches 100% with boyfriend Brijesh ❤️'
   },
   {
     id: 'bf',
     name: 'Brijesh 😎',
-    avatarUrl: '/images/profile_avatar_king_1781496905421.jpg',
+    avatarUrl: profileKing,
     isGirlfriend: false,
     tagline: 'The director, producer, and chief fan of Anjali\'s smile'
   },
   {
     id: 'future',
     name: 'Our Future Kids 👶',
-    avatarUrl: '/images/kids_avatar_1781497011070.jpg',
+    avatarUrl: kidsAvatar,
     isGirlfriend: false,
     tagline: 'Future viewers of our legendary love story'
   }
@@ -27,8 +35,8 @@ export const PROFILES: Profile[] = [
 export const HERO_MOVIE: Movie = {
   id: 'loveflix-special',
   title: 'Our Beautiful Love Story',
-  backdropUrl: '/images/Homepic.png',
-  posterUrl: '/images/Homepic.png',
+  backdropUrl: homePic,
+  posterUrl: homePic,
   description: 'An unforgettable story of two hearts connected across miles, turning every distance into a reason to love harder. Filled with endless video calls, late-night conversations that lasted until sunrise, countless "I miss you" moments, and memories created through screens and dreams. Through every laugh, every tear, every good morning and good night, our bond has only grown stronger. Today, we celebrate her brilliant entry into Season 22 of life, embarking on the most incredible co-authored chapters together. ❤️',
   shortDescription: 'The award-winning real life romance starring You & Me.',
   matchScore: 100,
@@ -71,8 +79,8 @@ export const MOVIE_ROWS = [
       {
         id: 'memory_lane_card',
         title: 'Our Memory Lane',
-        backdropUrl: '/images/memories.jpg',
-        posterUrl: '/images/memories.jpg',
+        backdropUrl: memoriesPic,
+        posterUrl: memoriesPic,
         description: 'A collection of moments that prove distance was never strong enough to keep two hearts apart. Late night calls. Endless messages. Random laughs. Countless "I miss you"s. Every memory brought us closer, and every day with you became my favorite chapter. To many more memories, adventures, and birthdays together. ❤️',
         shortDescription: 'Scroll through interactive milestones of our journey.',
         matchScore: 100,
@@ -104,8 +112,8 @@ export const MOVIE_ROWS = [
       {
         id: 'boyfriend_stats_card',
         title: 'Boyfriend Recommendation & Review',
-        backdropUrl: '/images/Recommendation.png',
-        posterUrl: '/images/Recommendation.png',
+        backdropUrl: recommendationPic,
+        posterUrl: recommendationPic,
         description: 'Read the official, indepth evaluation and certified 22/22 review score of Anjali by her boyfriend Brijesh. Features high impact radial stats showing her outstanding traits as she turns 22, visual ratings, and a special review text that proves why she remains #1 in the cosmos.',
         shortDescription: 'Full breakdown of why Anjali is the absolute best 22-year-old on earth.',
         matchScore: 100,
@@ -118,8 +126,8 @@ export const MOVIE_ROWS = [
       {
         id: 'future_together_card',
         title: 'Our Next Season: Co-authored Future',
-        backdropUrl: '/images/roadmap.jpg',
-        posterUrl: '/images/roadmap.jpg',
+        backdropUrl: roadmapPic,
+        posterUrl: roadmapPic,
         description: 'An exclusive sneak peek into the upcoming seasons in our lives together, where distance finally ends and we step into real-life moments we’ve only imagined until now. From our long-awaited first meeting and scenic mountain rides to fun street food challenges, every experience becomes a shared adventure. We’ll cook together, laugh through the chaos, and turn simple moments into lasting memories. And finally, our first movie date side by side marks just the beginning of countless nights together. ❤️',
         shortDescription: 'Write our shared roadmap and next vacation plans.',
         matchScore: 98,
