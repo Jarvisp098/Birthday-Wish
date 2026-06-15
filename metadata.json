@@ -1,0 +1,6 @@
+{
+  "name": "Netflix Style Birthday Wish",
+  "description": "An interactive, fully responsive Netflix-style birthday wishlist and memory lane application built especially to wish your girlfriend a happy birthday.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
