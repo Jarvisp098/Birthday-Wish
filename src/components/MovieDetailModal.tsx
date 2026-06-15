@@ -479,7 +479,7 @@ export default function MovieDetailModal({ movie, onClose, onPlayClick }: MovieD
                   <div className="space-y-6 text-xs sm:text-sm">
                     <div>
                       <span className="text-gray-500 block">Lead Cast:</span>
-                      <span className="text-gray-300 text-medium font-sans block mt-0.5">Anjali (Birthday Queen), Brijesh (Her Boyfriend)</span>
+                      <span className="text-gray-300 text-medium font-sans block mt-0.5">Anjali, Brijesh</span>
                     </div>
                     <div>
                       <span className="text-gray-500 block">Director & Writer:</span>
