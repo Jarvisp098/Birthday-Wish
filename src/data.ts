@@ -37,7 +37,13 @@ export const HERO_MOVIE: Movie = {
   title: 'Our Beautiful Love Story',
   backdropUrl: homePic,
   posterUrl: homePic,
-  description: 'An unforgettable story of two hearts connected across miles, turning every distance into a reason to love harder. Filled with endless video calls, late night conversations that lasted until sunrise, countless "I miss you" moments, and memories created through screens and dreams. Through every laugh, every tear, every good morning and good night, our bond has only grown stronger. Today, we celebrate her brilliant entry into Season 22 of life, embarking on the most incredible co-authored chapters together. ❤️',
+  description: `Today isn't just your birthday, it's the day the world was gifted someone truly special. Even though miles separate us, you've become the most beautiful part of my everyday life. Thank you for every late night call, every laugh, every memory, and every moment that made the distance feel smaller.
+
+I made this little website because you deserve something created with love, just like the love you've brought into my life. I can't wait for the day when we celebrate your birthday side by side instead of through a screen.
+
+Until then, know that my heart is always with you.
+
+I love you endlessly. Happy Birthday, sweetheart. 🎂💕`,
   shortDescription: 'The award-winning real life romance starring You & Me.',
   matchScore: 100,
   year: 2026,
@@ -67,7 +73,7 @@ export const MOVIE_ROWS = [
         title: 'Happy Birthday, Anjali!',
         backdropUrl: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80',
         posterUrl: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=400&h=600&q=80',
-        description: 'Open the envelope for a deep, handwritten-style letter celebrating your spectacular entry into Season 22! Discover how you changed my entire world, how much I cherish your special day on June 15th, and what makes you the most beautiful 22-year-old in the universe.',
+        description: 'Open the envelope for a deep, letter celebrating your spectacular entry into Season 22! Discover how you changed my entire world, how much I cherish your special day on June 15th, and what makes you the most beautiful 22 year old in the universe.',
         shortDescription: 'A heartfelt romantic letter celebrating Anjali turning 22.',
         matchScore: 110,
         year: 2026,

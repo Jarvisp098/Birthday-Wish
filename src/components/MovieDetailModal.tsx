@@ -260,7 +260,7 @@ export default function MovieDetailModal({ movie, onClose, onPlayClick }: MovieD
 
 
                     {/* Display the main description text */}
-                    <p className="text-sm sm:text-base text-zinc-100 font-sans leading-relaxed pt-2">
+                    <p className="text-sm sm:text-base text-zinc-100 font-sans leading-relaxed pt-2 whitespace-pre-line">
                       {movie.description}
                     </p>
 
@@ -272,8 +272,17 @@ export default function MovieDetailModal({ movie, onClose, onPlayClick }: MovieD
                         <div className="space-y-4 text-sm sm:text-base leading-relaxed tracking-wide pt-2">
                           <p className="font-bold text-neutral-900">My Beautiful Birthday Queen, Anjali,</p>
                           <p>
-                            I rate you 110 out of 10 points in every single index of life. Thank you for choosing me to be your boyfriend, co-star, and chief rate officer. Loveflix is 100% yours.
+                             Happy Birthday, My Love ❤️ Today isn't just your birthday, it's the day the world was gifted someone truly special. Even though miles separate us, you've become the most beautiful part of my everyday life. Thank you for every late night call, every laugh, every memory, and every moment that made the distance feel smaller. 
                           </p>
+                            <p>
+                              I made this little website because you deserve something created with love, just like the love you've brought into my life. I can't wait for the day when we celebrate your birthday side by side instead of through a screen.
+                             </p>
+                             <p>
+                              Until then, know that my heart is always with you. I love you endlessly. 
+                            </p>
+                            <p>
+                              Happy Birthday, sweetheart. 🎂💕 Loveflix is 100% yours.
+                            </p>
                           <p className="font-sans font-bold text-neutral-900 text-xs mt-6 flex items-center space-x-1.5 pt-4 border-t border-dashed border-stone-300">
                             <Heart className="w-3.5 h-3.5 text-red-600 fill-red-600" />
                             <span>With all my love and warm cuddles,</span>
